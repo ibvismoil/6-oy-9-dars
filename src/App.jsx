@@ -12,7 +12,7 @@ const App = () => {
       <div>
         <h1 style={{ textAlign: "center" }}>№81 group name</h1>
         <Routes>
-             <Route path="/add" element={<AddBook />} />
+          <Route path="/add" element={<AddBook />} />
           <Route path="/" element={<BookList />} />
           <Route path="/edit/:id" element={<EditBook />} />
         </Routes>
